@@ -1,0 +1,3690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1371</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_13">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>10</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>10</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(57, 57, 57);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>400</width>
+        <height>45</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>45</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(90, 90, 90);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_10">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <property name="spacing">
+              <number>1</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>16</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="graph_tab">
+               <property name="minimumSize">
+                <size>
+                 <width>152</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>152</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                 <pointsize>9</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(230, 230, 230);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgb(115, 115, 115);
+	border: 0px solid;
+}
+QPushButton:pressed {
+
+	color: rgb(25, 25, 25);
+	background-color: rgb(230, 230, 230);
+	
+}</string>
+               </property>
+               <property name="text">
+                <string>Grafica</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="monitor_Button">
+               <property name="minimumSize">
+                <size>
+                 <width>152</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>152</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                 <pointsize>9</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(230, 230, 230);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgb(115, 115, 115);
+	border: 0px solid;
+}
+QPushButton:pressed {
+
+	color: rgb(25, 25, 25);
+	background-color: rgb(230, 230, 230);
+	
+}</string>
+               </property>
+               <property name="text">
+                <string>Monitor</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="doc_tab">
+               <property name="minimumSize">
+                <size>
+                 <width>152</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>152</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                 <pointsize>9</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(230, 230, 230);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgb(115, 115, 115);
+	border: 0px solid;
+}
+QPushButton:pressed {
+
+	color: rgb(25, 25, 25);
+	background-color: rgb(230, 230, 230);
+	
+}</string>
+               </property>
+               <property name="text">
+                <string>Doc</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_22">
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Plain</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="minimumSize">
+             <size>
+              <width>125</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>125</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_3">
+               <property name="minimumSize">
+                <size>
+                 <width>45</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>45</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="Play_Button">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>45</width>
+                    <height>45</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Century Gothic</family>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	border: none;
+	background-color: rgb(90, 90, 90);
+	
+}
+
+
+
+QPushButton:pressed {
+	
+	padding-top: 1px;
+}
+
+</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>icons/boton-de-play.png</normaloff>icons/boton-de-play.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_8">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>60</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QComboBox" name="Com_Selector">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Century Gothic</family>
+                    <pointsize>8</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(115, 115, 115);</string>
+                  </property>
+                  <property name="maxVisibleItems">
+                   <number>3</number>
+                  </property>
+                  <property name="frame">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>35</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="Home_Button">
+               <property name="minimumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	background-color: rgb(90, 90, 90);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(115, 115, 115);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+   
+
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>icons/cil-home.png</normaloff>icons/cil-home.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">
+
+/* SCROLL BARS */
+
+/*HORIZONTAL*/
+QScrollBar:horizontal {
+	border: none;
+    background: rgb(52, 59, 72);
+    height: 12px;
+    margin: 0 0  0px 0 ;
+	border-radius: 0px;
+}
+
+QScrollBar::handle:horizontal {
+	
+	background-color: rgb(135, 135, 135);
+	border-radius: 5px;
+    min-width: 10px;	
+}
+
+QScrollBar::handle:horizontal:hover{
+	background-color: rgb(150, 150, 150);
+}
+
+
+QScrollBar::handle:horizontal:pressed{	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+    background: rgb(55, 63, 77);
+    width: 10px;
+	height: 12px;
+	border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: rgb(55, 63, 77);
+    width: 10px;
+	height: 12px;
+	border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+/*important */
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{	    
+	background-color: rgb(255, 255, 255);
+}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="palette">
+             <palette>
+              <active>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </active>
+              <inactive>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </inactive>
+              <disabled>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </disabled>
+             </palette>
+            </property>
+            <property name="font">
+             <font>
+              <family>Century Gothic</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(244, 244, 244);
+background: transparent;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="lineWidth">
+             <number>1</number>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="page_home">
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QFrame" name="frame_32">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>120</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>120</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_19">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>50</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_16">
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>logos/logo-universidad-de-los-llanos.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_35">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_16">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>5</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_13">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Century Gothic</family>
+                     <pointsize>36</pointsize>
+                     <weight>50</weight>
+                     <italic>false</italic>
+                     <bold>false</bold>
+                     <kerning>true</kerning>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(57, 57, 57);
+border: 3px solid rgb(57, 57, 57);
+border-radius: 15px;
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Monitor Energias Limpias</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_9">
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                 <property name="spacing">
+                  <number>10</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_11">
+                   <property name="maximumSize">
+                    <size>
+                     <width>60</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_37">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Plain</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_15">
+                    <property name="spacing">
+                     <number>6</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="Solar_Button">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(25, 25, 25);
+	background-color: rgb(230, 230, 230);
+	border: 4px solid rgb(250, 246, 128);
+	border-radius: 15px;
+	
+	
+}
+
+QPushButton:hover {
+	background-color: rgb(250, 246, 128);
+}
+
+QPushButton:pressed {
+	background-color: rgb(255, 207, 60);
+	border: 4px solid rgb(255, 207, 60);
+	padding-top: 2px;
+    padding-right: 2px;
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>icons/solar-panel.png</normaloff>icons/solar-panel.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>128</width>
+                        <height>128</height>
+                       </size>
+                      </property>
+                      <property name="default">
+                       <bool>false</bool>
+                      </property>
+                      <property name="flat">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_40">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(57, 57, 57);
+border: 2px solid rgb(57, 57, 57);
+border-radius: 10px;
+</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_16">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_17">
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Light</family>
+                           <pointsize>11</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(57, 57, 57);
+border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Panel Solar</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_41">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Plain</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_14">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="Wind_button">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(25, 25, 25);
+	
+	background-color: rgb(230, 230, 230);
+	border: 4px solid rgb(102, 198, 105);
+	border-radius: 15px;
+}
+
+QPushButton:hover {
+	background-color: rgb(102, 198, 105);
+}
+
+QPushButton:pressed {
+	background-color: rgb(48, 165, 27);
+	border: 4px solid rgb(48, 165, 27);
+	padding-top: 2px;
+    padding-right: 2px;
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>icons/wind-energy.png</normaloff>icons/wind-energy.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>128</width>
+                        <height>128</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_39">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(57, 57, 57);
+border: 2px solid rgb(57, 57, 57);
+border-radius: 10px;
+</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_17">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_18">
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Light</family>
+                           <pointsize>11</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(57, 57, 57);
+border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Turbina de viento</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_42">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>185</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Plain</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_13">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="Hydrogen_button">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="sizeIncrement">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="baseSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>12</pointsize>
+                       </font>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(25, 25, 25);
+	
+	background-color: rgb(230, 230, 230);
+	border: 4px solid rgb(111, 134, 206);
+	border-radius: 15px;
+}
+
+QPushButton:hover {
+	background-color: rgb(111, 134, 206);	
+}
+
+QPushButton:pressed {
+	background-color: rgb(52, 47, 197);
+	border: 4px solid rgb(52, 47, 197);
+	padding-top: 2px;
+    padding-right: 2px;
+
+}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>icons/h2.png</normaloff>icons/h2.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>128</width>
+                        <height>128</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_38">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(57, 57, 57);
+border: 2px solid rgb(57, 57, 57);
+border-radius: 10px;
+</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_18">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QLabel" name="label_19">
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI Light</family>
+                           <pointsize>11</pointsize>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(57, 57, 57);
+border: none;</string>
+                         </property>
+                         <property name="text">
+                          <string>Generador de Hidrogeno</string>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_12">
+                   <property name="maximumSize">
+                    <size>
+                     <width>60</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_33">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_14">
+                   <property name="maximumSize">
+                    <size>
+                     <width>160</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>logos/pixlr-bg-result.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_24">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_15">
+                   <property name="maximumSize">
+                    <size>
+                     <width>140</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap>logos/pixlr-bg-result (1).png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_graph">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_18">
+              <item>
+               <widget class="QFrame" name="frame_28">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="MplWidget" name="MplWidget" native="true">
+                   <property name="font">
+                    <font>
+                     <family>Century Gothic</family>
+                    </font>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_14">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(244, 244, 244);
+border-radius: 10;
+
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::Panel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <property name="spacing">
+                     <number>4</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>15</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_4">
+                      <property name="minimumSize">
+                       <size>
+                        <width>90</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>120</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Voltaje: </string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_10">
+                      <property name="minimumSize">
+                       <size>
+                        <width>90</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>Corriente:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_6">
+                      <property name="minimumSize">
+                       <size>
+                        <width>120</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>120</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>tiempo :</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_3">
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>6</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>t/div</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QScrollBar" name="horizontalScrollBar">
+                      <property name="minimumSize">
+                       <size>
+                        <width>80</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>95</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="minimum">
+                       <number>1</number>
+                      </property>
+                      <property name="maximum">
+                       <number>5</number>
+                      </property>
+                      <property name="singleStep">
+                       <number>1</number>
+                      </property>
+                      <property name="pageStep">
+                       <number>1</number>
+                      </property>
+                      <property name="value">
+                       <number>1</number>
+                      </property>
+                      <property name="tracking">
+                       <bool>true</bool>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_5">
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>6</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Volt/div</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QScrollBar" name="horizontalScrollBar_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>80</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>95</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="minimum">
+                       <number>1</number>
+                      </property>
+                      <property name="maximum">
+                       <number>3</number>
+                      </property>
+                      <property name="pageStep">
+                       <number>1</number>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="Adjust_YButton">
+                      <property name="minimumSize">
+                       <size>
+                        <width>30</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>30</width>
+                        <height>12</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>7</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	color: rgb(25, 25, 25);
+	
+	background-color: rgb(230, 230, 230);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+QPushButton:pressed {
+	background-color: rgb(73, 147, 221);
+	
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Auto</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_31">
+                <property name="minimumSize">
+                 <size>
+                  <width>400</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>400</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">/*VERTICAL*/
+QScrollBar:vertical {
+
+    background: rgb(52, 59, 72);
+    width: 12px;
+    border: solid 
+}
+
+QScrollBar::handle:vertical {
+		
+	background-color: rgb(135, 135, 135);
+	border-radius: 10px;
+    min-height: 10px;	
+}
+
+QScrollBar::handle:vertical:hover{
+	
+	background-color: rgb(150, 150, 150);
+}
+
+QScrollBar::handle:vertical:pressed{	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::sub-line:verticall {
+    border: none;
+    background: rgb(55, 63, 77);
+    height: 7px;
+	border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{	
+	background: rgb(105, 105, 105);   
+	border-radius: 10px; 
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="frame_29">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(105, 105, 105);
+border: 0px solid;
+border-radius: 10px;
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::NoFrame</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Plain</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_11">
+                    <property name="topMargin">
+                     <number>9</number>
+                    </property>
+                    <item>
+                     <widget class="QTabWidget" name="tabWidget">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QTabWidget::pane {
+	border: 2px solid rgb(230, 230, 230);
+	background-color: rgb(244, 244, 244);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+
+QTabWidget::tab-bar:top {
+    top: 1px;
+}
+
+QTabWidget::tab-bar:bottom {
+    bottom: 1px;
+}
+
+QTabWidget::tab-bar:left {
+    right: 1px;
+}
+
+QTabWidget::tab-bar:right {
+    left: 1px;
+}
+
+QTabBar::tab {
+    border: 0px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+QTabBar::tab:selected {
+	color: rgb(25, 25, 25);
+    background-color: rgb(230, 230, 230);
+}
+
+QTabBar::tab:!selected {
+    
+	 border-bottom: 1px solid rgb(230, 230, 230);
+	color: rgb(230, 230, 230);
+	background-color: rgb(115, 115, 115);
+}
+
+QTabBar::tab:!selected:hover {
+    
+	background-color: rgb(150, 150, 150);
+}
+
+
+QTabBar::tab:top, QTabBar::tab:bottom {
+    min-width: 8ex;
+    margin-right: -1px;
+    padding: 4px 10px 4px 10px;
+}
+
+
+QTabBar::tab:top:selected {
+    border-bottom-color: none;
+}
+
+QTabBar::tab:bottom:selected {
+    border-top-color: none;
+}
+
+QTabBar::tab:top:last, QTabBar::tab:bottom:last,
+QTabBar::tab:top:only-one, QTabBar::tab:bottom:only-one {
+    margin-right: 0;
+}
+
+QTabBar::tab:left:!selected {
+    margin-right: 3px;
+}
+
+QTabBar::tab:right:!selected {
+    margin-left: 3px;
+}
+
+QTabBar::tab:left, QTabBar::tab:right {
+    min-height: 20ex;
+    margin-bottom: -1px;
+    padding: 10px 5px 10px 5px;
+}
+
+QTabBar::tab:left:selected {
+    border-left-color: none;
+}
+
+QTabBar::tab:right:selected {
+    border-right-color: none;
+}
+
+QTabBar::tab:left:last, QTabBar::tab:right:last,
+QTabBar::tab:left:only-one, QTabBar::tab:right:only-one {
+    margin-bottom: 0;
+}</string>
+                      </property>
+                      <property name="tabPosition">
+                       <enum>QTabWidget::North</enum>
+                      </property>
+                      <property name="tabShape">
+                       <enum>QTabWidget::Rounded</enum>
+                      </property>
+                      <property name="currentIndex">
+                       <number>1</number>
+                      </property>
+                      <property name="elideMode">
+                       <enum>Qt::ElideNone</enum>
+                      </property>
+                      <property name="usesScrollButtons">
+                       <bool>true</bool>
+                      </property>
+                      <property name="documentMode">
+                       <bool>false</bool>
+                      </property>
+                      <property name="tabsClosable">
+                       <bool>false</bool>
+                      </property>
+                      <property name="movable">
+                       <bool>false</bool>
+                      </property>
+                      <property name="tabBarAutoHide">
+                       <bool>false</bool>
+                      </property>
+                      <widget class="QWidget" name="save_tab">
+                       <attribute name="title">
+                        <string>Crear nueva serie de datos</string>
+                       </attribute>
+                       <layout class="QHBoxLayout" name="horizontalLayout_16">
+                        <item>
+                         <widget class="QFrame" name="frame_17">
+                          <property name="minimumSize">
+                           <size>
+                            <width>50</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::NoFrame</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Plain</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_17">
+                           <property name="leftMargin">
+                            <number>10</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>10</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QPushButton" name="save_as">
+                             <property name="minimumSize">
+                              <size>
+                               <width>30</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>30</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+	
+	background-color: rgb(120, 120, 120);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(125, 125, 125);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+    
+
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="icon">
+                              <iconset>
+                               <normaloff>icons/save-icon-5404.png</normaloff>icons/save-icon-5404.png</iconset>
+                             </property>
+                             <property name="iconSize">
+                              <size>
+                               <width>18</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="Filename">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>25</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(120, 120, 120);
+padding-left: 10px;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Nombre de la Hoja</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                      <widget class="QWidget" name="load_tab">
+                       <attribute name="title">
+                        <string>Guardar en datos existentes</string>
+                       </attribute>
+                       <layout class="QHBoxLayout" name="horizontalLayout_14">
+                        <item>
+                         <widget class="QFrame" name="frame_18">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_20">
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <item>
+                            <widget class="QPushButton" name="save">
+                             <property name="minimumSize">
+                              <size>
+                               <width>30</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>25</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QPushButton {
+	
+	background-color: rgb(120, 120, 120);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(125, 125, 125);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+    
+
+}
+</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="icon">
+                              <iconset>
+                               <normaloff>icons/save-icon-5404.png</normaloff>icons/save-icon-5404.png</iconset>
+                             </property>
+                             <property name="iconSize">
+                              <size>
+                               <width>18</width>
+                               <height>18</height>
+                              </size>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="Mail">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>25</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(120, 120, 120);
+padding-left: 10px;</string>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Correo</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="file_selector">
+                             <property name="minimumSize">
+                              <size>
+                               <width>87</width>
+                               <height>20</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>150</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                               <pointsize>8</pointsize>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QComboBox{	
+	color: rgb(230, 230, 230);
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 3px;
+    padding: 1px 4px 1px 3px;
+    min-width: 6em;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 18px;
+
+    border-left-width: 1px;
+    border-left-color: rgb(57, 57, 57);
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox QAbstractItemView
+{
+	border: 1px solid rgb(57, 57, 57);
+	border-bottom-left-radius: 3px; 
+    border-bottom-right-radius: 3px;
+	color: rgb(40, 40, 40);
+	
+	
+}</string>
+                             </property>
+                             <property name="currentText">
+                              <string>Escoger hoja..</string>
+                             </property>
+                             <property name="frame">
+                              <bool>true</bool>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Escoger hoja..</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="auto_save_selector">
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Century Gothic</family>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QComboBox{	
+	color: rgb(230, 230, 230);
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 3px;
+    padding: 1px 4px 1px 3px;
+    min-width: 6em;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 18px;
+
+    border-left-width: 1px;
+    border-left-color: rgb(57, 57, 57);
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox QAbstractItemView
+{
+	border: 1px solid rgb(57, 57, 57);
+	border-bottom-left-radius: 3px; 
+    border-bottom-right-radius: 3px;
+	color: rgb(40, 40, 40);
+	
+	
+}</string>
+                             </property>
+                             <property name="placeholderText" stdset="0">
+                              <string>Auto Save </string>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>Desactivado</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>5 minutos</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>10 minutos</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>15 minutos</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>30 minutos</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>1 hora</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QTableWidget" name="tableWidget">
+                      <property name="font">
+                       <font>
+                        <family>Century Gothic</family>
+                        <pointsize>8</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QTableWidget {	
+	
+	background-color: rgb(244, 244, 244);	
+	padding: 5px;
+	border-radius: 8px;
+	gridline-color: rgb(44, 49, 60);
+	border-bottom: 1px solid rgb(44, 49, 60);
+}
+QTableWidget::item{
+	border-color: rgb(44, 49, 60);
+	padding-left: 0px;
+	padding-right: 5px;
+	gridline-color: rgb(44, 49, 60);
+}
+QTableWidget::item:selected{
+	
+	background-color: rgb(51, 153, 255);
+}
+
+</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::NoFrame</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Plain</enum>
+                      </property>
+                      <property name="verticalScrollBarPolicy">
+                       <enum>Qt::ScrollBarAlwaysOn</enum>
+                      </property>
+                      <property name="autoScroll">
+                       <bool>true</bool>
+                      </property>
+                      <property name="editTriggers">
+                       <set>QAbstractItemView::SelectedClicked</set>
+                      </property>
+                      <property name="alternatingRowColors">
+                       <bool>true</bool>
+                      </property>
+                      <property name="selectionBehavior">
+                       <enum>QAbstractItemView::SelectRows</enum>
+                      </property>
+                      <property name="showGrid">
+                       <bool>true</bool>
+                      </property>
+                      <property name="sortingEnabled">
+                       <bool>false</bool>
+                      </property>
+                      <property name="wordWrap">
+                       <bool>true</bool>
+                      </property>
+                      <property name="rowCount">
+                       <number>21</number>
+                      </property>
+                      <property name="columnCount">
+                       <number>3</number>
+                      </property>
+                      <attribute name="horizontalHeaderVisible">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="horizontalHeaderCascadingSectionResizes">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="horizontalHeaderDefaultSectionSize">
+                       <number>118</number>
+                      </attribute>
+                      <attribute name="horizontalHeaderHighlightSections">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="verticalHeaderVisible">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="verticalHeaderHighlightSections">
+                       <bool>true</bool>
+                      </attribute>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row>
+                       <property name="text">
+                        <string>New Row</string>
+                       </property>
+                      </row>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <column>
+                       <property name="text">
+                        <string>1</string>
+                       </property>
+                      </column>
+                      <column/>
+                      <column/>
+                      <item row="0" column="0">
+                       <property name="text">
+                        <string>Fecha(a/m/d)</string>
+                       </property>
+                      </item>
+                      <item row="0" column="1">
+                       <property name="text">
+                        <string>Energia G(w/h)</string>
+                       </property>
+                      </item>
+                      <item row="0" column="2">
+                       <property name="text">
+                        <string>Duracion(h:m:s) </string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_doc">
+             <property name="styleSheet">
+              <string notr="true">
+/*VERTICAL*/
+QScrollBar:vertical {
+
+    background: rgb(52, 59, 72);
+    width: 25px;
+    border-radius: 10px;
+	margin: 0 0  0 0 ;
+}
+
+QScrollBar::handle:vertical {
+	
+	background-color: rgb(155, 205, 255);
+	border-radius: 10px;
+    min-height: 10px;	
+}
+
+QScrollBar::handle:vertical:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+
+QScrollBar::handle:vertical:pressed{	
+	
+	background-color: rgb(48, 136, 223);
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+	background: none;
+	height: 30px;	
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:verticall {
+    border: none;
+    background: none;
+    height: 30px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{	
+	
+	background-color: rgb(255, 255, 255);
+	background :   
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QScrollArea" name="scrollArea">
+                <property name="styleSheet">
+                 <string notr="true">QScrollArea{
+background-color: qlineargradient(spread:reflect, x1:0.5, y1:0.488636, x2:0.506, y2:1, stop:0.619318 rgba(255, 255, 255, 255), stop:0.965909 rgba(165, 206, 255, 248));
+}
+
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>663</width>
+                   <height>2244</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <item>
+                   <widget class="QFrame" name="frame_23">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>200</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: none;</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_12">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_9">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>600</width>
+                         <height>200</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true"/>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap>logos/Logo-Horizon-Educational-Blue.png</pixmap>
+                       </property>
+                       <property name="scaledContents">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_2">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>70</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>500</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Century Gothic</family>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: none;</string>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;El Set educativo de energías renovables &lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;FCJJ-27&lt;/span&gt; es un sistema modular diseñado para realizar experimentos y demostrar el funcionamiento y entendimiento de una forma práctica de la tecnología disponible hoy en día para la obtención de &lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;energías limpias&lt;/span&gt;, suministrando un equipo completo en miniatura para producir y experimentar con la obtención de la energía a escala, como en los laboratorios.&lt;/p&gt;&lt;p&gt;Con este completo kit puede construir un sistema para la obtención de energía renovable en miniatura completo para la experimentación y demostración. &lt;/p&gt;&lt;p&gt;Este conjunto en sí constituye un completo sistema de trabajo real a escala incorporando, &lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;un aerogenerador&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;un panel solar fotovoltaico&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;un electrolizador&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;una pila de combustible PEM y un sistema de almacenamiento de hidrógeno. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>false</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_26">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>300</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: none;</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Plain</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_13">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_12">
+                       <property name="minimumSize">
+                        <size>
+                         <width>400</width>
+                         <height>320</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>400</width>
+                         <height>320</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                       <property name="pixmap">
+                        <pixmap>logos/prod_9307660532-removebg-preview.png</pixmap>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_11">
+                    <property name="font">
+                     <font>
+                      <family>Century Gothic</family>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: none;</string>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Un sistema que pretende alentar al usuario aprender las diferentes formas de generación de energía y experimentar con diferentes configuraciones gracias a su sistema modular. &lt;/p&gt;&lt;p&gt;Aprenda a generar energía limpia paso a paso y experimente con diferentes configuraciones para comprender de principio a fin de cómo obtener energía limpia sin emisiones de CO₂. &lt;/p&gt;&lt;p&gt;Este documento contiene una breve reseña sobre la energía renovable, instrucciones sobre experimentos, guía de montaje y manual de uso del programa.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="frame_25">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: none;</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Plain</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_8">
+                    <property name="font">
+                     <font>
+                      <family>Century Gothic</family>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#1688dc;&quot;&gt;CUENTA CON LOS SIGUIENTES ELEMENTOS:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. Aerogenerador. &lt;/p&gt;&lt;p&gt;2. Célula Fotovoltaica - Solar&lt;/p&gt;&lt;p&gt;3. Electrolizador.&lt;/p&gt;&lt;p&gt;4. Célula de Combustible PEM de Hidrógeno H2.&lt;/p&gt;&lt;p&gt;5. Sistema de depósito de Hidrógeno.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#1688dc;&quot;&gt;EXPERIMENTOS Y ACTIVIDADES QUE SE PUEDEN REALIZAR: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#3399ff;&quot;&gt;Experimentos de energía solar &lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. El efecto del calor en los paneles solares &lt;/p&gt;&lt;p&gt;2. El efecto de la sombra en los paneles solares &lt;/p&gt;&lt;p&gt;3. El efecto del ángulo de inclinación en los paneles solares &lt;/p&gt;&lt;p&gt;4. Encontrar el punto de máxima potencia del panel solar &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#3399ff;&quot;&gt;Energía de experimentos de hidrógeno&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. Modo de electrólisis que genera H2 y O2 &lt;/p&gt;&lt;p&gt;2. Modo de pila de combustible que genera electricidad a partir de H2 y O2 &lt;/p&gt;&lt;p&gt;3. Determinación del voltaje mínimo de descomposición del agua &lt;/p&gt;&lt;p&gt;4. Estados de polarización de las pilas de combustible de hidrógeno &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#3399ff;&quot;&gt;Experimentos de energía eólica &lt;/span&gt;&lt;/p&gt;&lt;p&gt;1. ¿Cuántas hojas son las mejores: 1, 2, 3 ... más? &lt;/p&gt;&lt;p&gt;2. Uso de tres formas diferentes de hojas curvas &lt;/p&gt;&lt;p&gt;3. Usando cuchillas que usted mismo hace &lt;/p&gt;&lt;p&gt;4. Eficiencias de la turbina &lt;/p&gt;&lt;p&gt;5. Medición de RPM &lt;/p&gt;&lt;p&gt;6. Ajuste para la máxima potencia &lt;/p&gt;&lt;p&gt;7. Cómo afecta el ángulo o la inclinación de la hoja a la potencia de salida &lt;/p&gt;&lt;p&gt;8. Para generar hidrógeno &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+	background-color: rgb(105, 105, 105);
+}
+
+/*VERTICAL*/
+QScrollBar:vertical {
+
+    background: rgb(52, 59, 72);
+    width: 12px;
+    border: solid 
+}
+
+QScrollBar::handle:vertical {
+		
+	background-color: rgb(135, 135, 135);
+	border-radius: 10px;
+    min-height: 10px;	
+}
+
+QScrollBar::handle:vertical:hover{
+	
+	background-color: rgb(150, 150, 150);
+}
+
+QScrollBar::handle:vertical:pressed{	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::sub-line:verticall {
+    border: none;
+    background: rgb(55, 63, 77);
+    height: 7px;
+	border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{	
+	background: rgb(105, 105, 105);   
+	border-radius: 10px; 
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QScrollArea" name="DocArea">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(105, 105, 105);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="sizeAdjustPolicy">
+             <enum>QAbstractScrollArea::AdjustToContents</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>298</width>
+               <height>4659</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>280</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Century Gothic</family>
+                  <pointsize>12</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(230, 230, 230);</string>
+                </property>
+                <property name="lineWidth">
+                 <number>1</number>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;KIT EDUCATIONAL HORIZON FCJJ-37&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;GUIA DE USUARIO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;__________________________________&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Esta ventana contiene informacion&lt;br/&gt;referente a lo que se muestra en la &lt;br/&gt;ventana actualmente, para navegar&lt;br/&gt;por las practicas posibles haga click en&lt;br/&gt;alguna de las 3 opciones de la izquierda&lt;br/&gt;que lo llevaran al modo monitor,&lt;br/&gt;puede siempre volver al inicio con el &lt;br/&gt;icono de casaen la esquina superior &lt;br/&gt;derecha,tambien puede explorar las &lt;br/&gt;opciones de la derecha disponibles: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;La carpeta para guardar o cargar datos &lt;br/&gt;capturados (solo disponible estando en&lt;br/&gt;modo monitor).&lt;br/&gt;El libro que abre la documentacion &lt;br/&gt;disponible sobre los experimentos y las&lt;br/&gt;tematicas estudiadas.&lt;br/&gt;El manual el cual es esta ventana que&lt;br/&gt;guias e instrucciones referentes a la&lt;br/&gt;ventana en que se encuentre.&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="textFormat">
+                 <enum>Qt::AutoText</enum>
+                </property>
+                <property name="scaledContents">
+                 <bool>false</bool>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+                <property name="wordWrap">
+                 <bool>false</bool>
+                </property>
+                <property name="margin">
+                 <number>0</number>
+                </property>
+                <property name="indent">
+                 <number>0</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_solar">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100000</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(230, 230, 230);</string>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Módulo fotovoltaico&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: Los módulos fotovoltaicos son los elementos principales en un sistema fotovoltaico ya que se encargan de captar y transformar la energía solar en electricidad. Es aquí donde el efecto fotovoltaico entra en juego, puesto que describe y da a conocer detalladamente la mutación que sufre la luz en forma de fotones para convertirse en electricidad. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Inversor&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: Convierta la corriente continua del sistema a corriente alterna con una frecuencia determinada (50Hz/60Hz) en caso de que se necesite alimentar dispositivos que trabajen con la misma. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Regulador de carga:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Encargado de realizar los nexos entre las uniones del panel solar y los demás elementos del sistema. Otra función es proteger a las baterías de sobrecargas o descargas muy bajas. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Batería&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: Es el acumulador de energía en sistemas autónomos, donde su principal papel es abastecer de electricidad a las instalaciones conectadas al sistema fotovoltaico durante periodos de poca luz solar. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Los factores que pueden afectar el rendimiento de la captación de energía solar por parte de las celdas son: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Inclinación de las celdas &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Incidencia de los rayos solares &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Mantenimiento de las celdas &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Condiciones climáticas &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Temperatura &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Eficiencia de conversión &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/Home/solar2.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/Home/solar1.png&quot;/&gt;&lt;a name=&quot;_x0000_t75&quot;/&gt;&lt;br/&gt;&lt;br/&gt;NOTA: El precio de un sistema fotovoltaico varía mucho según las necesidades electro-energéticas que se quieran suplir. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_wind">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100000</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(230, 230, 230);</string>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Es la energía contenida en el viento (el aire en movimiento). Dichos movimientos en el aire se dan gracias a las diferencias de presión que se originan en la atmosfera, provocados principalmente por cambios de temperaturas constantes en el ambiente, los cuales son ocasionados por la distribución heterogénea o dispar de la radiación solar. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;La &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;energía cinética&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; (capacidad de que un objeto se pueda mover) que contiene el viento puede convertirse en energía eléctrica gracias al uso de un conjunto de aspas y una turbina, ya que son los principales elementos para esta transformación. El recurso energético que posee el viento hace parte de las energías limpias que podemos encontrar en el planeta. Al igual que la energía solar su naturaleza es &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;renovable, inagotable y libre de emisiones contaminantes. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Por otra parte, la energía eólica no solo es usada para la generación de energía eléctrica sino también mecánica, por ejemplo, en la extracción o circulación de agua, en los molinos (grano) y otros usos. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;El funcionamiento de un &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;aerogenerador&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; comienza en el momento en que el viento incide sobre las aspas y hace girar la turbina, la reacción a este movimiento de giro en el rotor es transferido al generador, el cual mediante un sistema multiplicador de velocidades producirá corrientes eléctricas que se transfieren directamente a las líneas de distribución. Es necesario tener en cuenta que para garantizar un suministro constante del recurso energético se debe disponer de baterías o acumuladores. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Aunque existen múltiples mitos que denigran este tipo de energía ecológica, la British Wind Energy Association (BWEA) lo desmiente, todo gracias a sus avances e investigaciones. Algunos de estos mitos son: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;“Los parques eólicos requieren extensas áreas de terreno” &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Un típico parque eólico de 20 turbinas puede cubrir un kilómetro cuadrado, pero sólo el 1% de esa superficie es efectivamente ocupada. El resto puede ser usada para otros destinos como granjas o hábitat naturales. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;“Los componentes de las turbinas afectan la salud de la población local” &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;La energía eólica no tiene emisiones asociadas y no produce polución ni desperdicios. A lo largo de 25 años y con más de 68.000 máquinas instaladas alrededor del mundo, ningún habitante ha sido dañado por la normal operación de las turbinas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/Home/eolica1.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;a name=&quot;_x0000_t75&quot;/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;I&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;MPACTO MEDIOAMBIENTAL DE LA ENERGÍA EÓLICA &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Al pertenecer al grupo de energías que son amigables con el ambiente la hace libre de emisiones y residuos contaminantes que contribuyen con el efecto invernadero que provoca el calentamiento global. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;El viento es un recurso ambiental inagotable y renovable que la posiciona como una opción importante para la generación de electricidad, disminuyendo de manera drástica la utilización y agotamiento de los recursos fósiles. Hay que tener claro que esto no la hace netamente libre de contaminación pero que en comparación con las formas tradicionales de producción electro-energéticas es mucho más beneficiosa para el ambiente. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Como lo dice British Wind Energy Association (BWEA) Un aerogenerador de 1,8 MW ubicado en un sitio adecuado, produce la energía suficiente como para cubrir las necesidades de 1.000 hogares o para operar una computadora durante 1.620 años, lo que es equivalente al uso de 2.480 toneladas de petróleo. Como se puede observar el beneficio es importante y su uso es una gran solución para los problemas de contaminación ambiental. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ELEMENTOS DE UN SISTEMA EÓLICO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Cuenta con una gran cantidad de elementos o partes, que son necesarios en un sistema algo complejo por sus grandes dimensiones. Algunas de sus partes principales son: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Rotor: &lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Parte de la turbina que se encuentra compuesto por las palas, bujes y eje principal. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Palas:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Se encargan de interactuar con el viento transfiriendo la energía cinética contenida en el viento al rotor. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Buje:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Se encarga de fijar y unir las palas al rotor. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Eje principal:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Se encarga de la interacción del rotor con la caja multiplicadora. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Multiplicadora&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: Se encarga de llevar la velocidad del rotor que esta entre 10 a 15 rpm a 1.500 rpm que es una velocidad convencional en los generadores para poder producir energía eléctrica. &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;br/&gt;Generador eléctrico:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Se encarga de transformar la energía mecánica contenida en el rotor en energía eléctrica que es llevada a un transformador eléctrico, la señal eléctrica debe contener ciertos parámetros como su estabilidad, limpieza de ruido y frecuencia. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Góndola:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; Es el compartimento donde se encuentra la caja multiplicadora, el generador eléctrico, componentes de control y monitoreo de todo el aerogenerador. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_hydrogen">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100000</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(230, 230, 230);</string>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Es un &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;procedimiento electroquímico&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; el cual se usa con el fin de generar reacciones químicas que no se provocan de forma espontánea, como lo es la disociación del agua en oxígeno e hidrogeno. Dicha reacción se da gracias al uso de corriente eléctrica continua, por ejemplo, una batería o una pila, un panel solar o cualquier elemento que genere corriente DC. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;El desarrollo de este proceso se hace con el fin de obtener hidrógeno ya que en la actualidad se considera como el combustible del futuro, gracias a su nivel de volatilidad. Recordemos que el hidrógeno es el elemento químico más presente en el universo y que su combustión no emite gases de efecto invernadero, es por esto que se considera como una energía limpia. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Para explicar cómo se da la reacción electroquímica se debe entender que se hace necesario el uso ciertos elementos como lo son un electrolizador que es un dispositivo donde se da la electrolisis, dicho elemento cuenta con dos electrodos uno positivo y otro negativo a los cuales se les aplica una diferencia de potencial o voltaje desde una batería o fuente de alimentación con corriente continua, lo que provoca una corriente eléctrica que circula por una solución alcalina como el agua destilada que gracias a su mayor nivel de conductividad hace más fácil el proceso de reacción química que descompone el agua en moléculas de oxígeno e hidrogeno. El hidrogeno y el oxígeno son contenidos en unos tubos de ensayo o envases de vidrio que son puestos dentro del agua con el electrodo positivo dentro de uno de ellos y el negativo en el otro, el oxígeno se contendrá dentro del recipiente cargado positivamente y el hidrogeno en el negativo. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;El uso que se le puede dar al hidrogeno es principalmente el reemplazo de recursos fósiles para la combustión de diferentes elementos que necesiten del mismo o para la generación de energía eléctrica a través de celdas de hidrógeno o pilas del mismo. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;IMPACTO MEDIOAMBIENTAL DEL HIDROGENO COMO FUENTE DE ENERGÍA &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Ya es sabido que el hidrógeno no se encuentra libre en la naturaleza, es necesario la implementación de procesos que permitan separarlo o disociarlo de algunos elementos y así obtenerlo en estado puro. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;La energía implementada en los procesos para su obtención puede ser convencionales (recursos fósiles) o renovables (solar, eólica, hidráulica, etc), y es ahí donde puede ser considerado el hidrógeno como energía limpia. Además, se sabe que la combustión del hidrógeno no emite gases contaminantes que incrementen el efecto invernadero en la tierra, dando más razones para ser considera como renovable y libre de contaminación. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Las ventajas con las que cuenta el hidrógeno pueden ser las siguientes:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Su alta volatilidad y baja densidad. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Su combustión no provoca gases contaminantes. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Alta eficiencia energética. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:9pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Es el elemento químico más abundante en la naturaleza. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ELEMENTOS EN LA OBTENCIÓN DE HIDRÓGENO &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/Home/Electrolisis.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Electrodos:&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; elementos eléctricos denominador ánodo (-) y cátodo (+) que se sumergen entre el líquido alcalino y se encargan de transportar la corriente eléctrica. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Liquido alcalino&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: se usa para el aumento de la conductividad eléctrica. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Fuente de alimentación (DC)&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: encargado de proveer el voltaje que se aplicará a los electrodos, debe ser una fuente de corriente directa o continua. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:600;&quot;&gt;Recipientes&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;: Son necesarios para ser sumergidos en el líquido alcalino de tal manera que exista un espacio de aire para contenerse el oxígeno e hidrogeno por separado en cada uno de ellos. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_20">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-top-style: solid;
+border-color: rgb(230, 230, 230);
+border-width: 0.5px;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="doc_plus">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Century Gothic</family>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	
+	color: rgb(155, 155, 155);
+}
+
+QPushButton:hover{
+	
+	color: rgb(230, 230, 230);
+	
+}
+
+QPushButton:pressed{	
+	color: rgb(51, 153, 255);	
+}
+
+</string>
+               </property>
+               <property name="text">
+                <string> # Doc</string>
+               </property>
+               <property name="autoExclusive">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_21">
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Plain</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_27">
+         <property name="minimumSize">
+          <size>
+           <width>45</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>45</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(97, 97, 97);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="Print_Button">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Century Gothic</family>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(97, 97, 97);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(115, 115, 115);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+    
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/folder.png</normaloff>icons/folder.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="doc_Button">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Century Gothic</family>
+              <pointsize>9</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(97, 97, 97);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(115, 115, 115);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+    
+
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/book-icon-139.png</normaloff>icons/book-icon-139.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="ToggleButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Siemens Slab Black</family>
+              <pointsize>24</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	
+	background-color: rgb(97, 97, 97);
+	color: rgb(216, 216, 216);
+	border: 0px solid;
+}
+
+QPushButton:hover {
+	
+	background-color: rgb(115, 115, 115);
+}
+
+QPushButton:pressed {
+	
+	background-color: rgb(136, 136, 136);
+	padding-top: 1px;
+    
+
+}
+
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/manual.png</normaloff>icons/manual.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_30">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_19">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 243, 65);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>15</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>15</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Century Gothic</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string> # Error Prompt</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1371</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icons/Doc images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

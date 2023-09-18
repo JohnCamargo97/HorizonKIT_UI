@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="Home">
+    <file>eolica1.png</file>
+    <file>Electrolisis.png</file>
+    <file>solar2.png</file>
+    <file>folder.png</file>
+    <file>book-icon-139.png</file>
+    <file>manual.png</file>
+    <file>solar1.png</file>
+    <file>cil-home.png</file>
+  </qresource>
+</RCC>

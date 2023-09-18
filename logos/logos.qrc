@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>MACRYPT.jpeg</file>
+    <file>EYSI.jpeg</file>
+    <file>UNILLANOS.jpeg</file>
+  </qresource>
+</RCC>
